@@ -3,9 +3,9 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: monthly
-      time: "00:05"
-      timezone: Europe/Berlin
+      interval: "cron"
+      cronjob: "1 3 11 * *"
+      timezone: "Europe/Berlin"
     open-pull-requests-limit: 20
     assignees:
       - "Bannsaenger"
@@ -14,9 +14,9 @@ updates:
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: monthly
-      time: "00:05"
-      timezone: Europe/Berlin
+      interval: "cron"
+      cronjob: "1 3 11 * *"
+      timezone: "Europe/Berlin"
     open-pull-requests-limit: 20
     assignees:
       - "Bannsaenger"
