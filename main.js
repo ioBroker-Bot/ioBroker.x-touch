@@ -17,10 +17,10 @@
 const utils = require('@iobroker/adapter-core');
 
 // Load your modules here, e.g.:
-const fs = require('fs');
-const udp = require('dgram');
+const fs = require('node:fs');
+const udp = require('node:dgram');
 
-// const { debug } = require('console');
+// const { debug } = require('node:console');
 
 const POLL_REC = 'F0002032585400F7';
 const POLL_REPLY = 'F00000661400F7';
