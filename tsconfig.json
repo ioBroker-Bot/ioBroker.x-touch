@@ -9,7 +9,6 @@
         "checkJs": true,
 
         "module": "commonjs",
-        "moduleResolution": "node",
         // this is necessary for the automatic typing of the adapter config
         "resolveJsonModule": true,
 
